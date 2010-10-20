@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>poeks.com</title>
+	<style>
+	body {
+		font-family: helvetica, arial;
+		background-color: #E1E1E1;
+		color: #333;
+		}
+	a {
+		text-decoration: none;
+		color: #368fe7;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	.stuff {
+		padding: 50px;
+		font-size: 48px;
+		
+	}
+	</style>
+	
+<body>
+	<br/><br/><br/>
+	<div class="stuff">
+	<em>
+	{% block content %}
+	
+	{% endblock %}
+	</em>
+	</div>
+	
+</body>
+
+</html>
